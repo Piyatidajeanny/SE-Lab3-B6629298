@@ -9,4 +9,5 @@ type Student struct {
 
  EnrollmentNumber string `json:"enrollment_number" gorm:"unique"`
  Major string `json:"major"`
+ 
 }  
